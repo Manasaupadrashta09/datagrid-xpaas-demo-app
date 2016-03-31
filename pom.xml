@@ -17,7 +17,7 @@
 		</license>
 	</licenses>
 	<properties>
-		<version.infinispan.bom>6.4.0.Final-redhat-4</version.infinispan.bom>
+		<version.infinispan.bom>6.3.1.Final-redhat-1</version.infinispan.bom>
 		<version.eap.bom>6.4.5.GA</version.eap.bom>
 		<version.junit>4.11</version.junit>
 		<maven.compiler.source>1.7</maven.compiler.source>
