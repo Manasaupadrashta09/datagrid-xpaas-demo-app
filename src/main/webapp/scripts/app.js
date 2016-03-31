@@ -83,7 +83,7 @@ app.controller('ListCtrl', function ($scope, $http) {
     	        $scope.tasks = data;
     	    }).error(function (data, status) {
     	    	var alert = new Object();
-    	    	alert.message = "Failed to connect to Backend DataStore!";
+    	    	alert.message = "Failed to reset Task List and connect to Backend DataStore!";
     	    	$scope.alerts.push(alert);
     	    	console.log('Error ' + data);
     	    });
