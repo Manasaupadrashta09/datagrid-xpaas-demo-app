@@ -75,7 +75,7 @@ public class Config {
 		if(hotrodProjectName == null) {
 			throw new DataGridConfigurationException("Failed to get JDG Project Name from environment variables. please make sure that you set this value before starting the container");
 		}
-		String hotRodHost=System.getenv(hotrodServiceName.toLowerCase() + "." + System.getenv(hotrodProjectName.toLowerCase() + ".svc.cluster.local";
+		String hotRodHost = hotrodServiceName + "." + hotrodProjectName + ".svc.cluster.local";
 		if(hotRodHost == null) {
 			throw new DataGridConfigurationException(String.format("Failed to get hostname/ip address for service %s",hotrodServiceName));
 		}
