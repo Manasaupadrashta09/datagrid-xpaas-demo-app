@@ -29,8 +29,8 @@ public class Config {
 
 	private static final String ENV_VAR_JDG_SERVICE_NAME = "JDG_SERVICE_NAME";
 	private static final String ENV_VAR_JDG_PROJECT_NAME = "JDG_PROJECT_NAME";
-	private static final String ENV_VAR_SUFFIX_HOTROD_SERVICE_PORT = "_HOTROD_SERVICE_PORT";
-	private static final String ENV_VAR_SUFFIX_HOTROD_SERVICE_HOST = "_HOTROD_SERVICE_HOST";
+	private static final String ENV_VAR_SUFFIX_HOTROD_SERVICE_PORT = "_SERVICE_PORT";
+	private static final String ENV_VAR_SUFFIX_HOTROD_SERVICE_HOST = "_SERVICE_HOST";
 
 	private static final String CACHE_NAME = "default";
 	private static final String PROTOBUF_DEFINITION_RESOURCE = "/todo/task.proto";
